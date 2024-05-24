@@ -1,0 +1,9 @@
+data/.DS_Store
+data/apks/.DS_Store
+data/apks/D0/.DS_Store
+.DS_Store
+missing.txt
+hash_sampling_hashes.txt
+hash_sampling.txt
+really_processed.txt
+data/original-datasets/GM19-MW/*
