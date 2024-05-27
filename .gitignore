@@ -6,4 +6,5 @@ missing.txt
 hash_sampling_hashes.txt
 hash_sampling.txt
 really_processed.txt
-data/original-datasets/GM19-MW/*
+data/datasets/original/GM19/mw/*
+data/datasets/original/GM19/gw/*
