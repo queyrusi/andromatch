@@ -10,9 +10,9 @@
 #              each DEX file to an image representation using a specific conversion 
 #              algorithm. The resulting images can then be used as input for further
 #              analysis and processing in the R2-D2 detector.
-# Usage: ./detectors/R2-D2/preprocessing/dexFolder2Images.sh <input_directory> \
+# Usage: ./detectors/R2-D2/preprocess/dexFolder2Images.sh <input_directory> \
 #        <output_directory>
-# Example: nohup ./detectors/R2-D2/preprocessing/dexFolder2Images.sh \
+# Example: nohup ./detectors/R2-D2/preprocess/dexFolder2Images.sh \
 #          data/features/original/GM19/mw/R2-D2/dex_concatenate/ \
 #          data/features/original/GM19/mw/R2-D2/images &
 ######################################################################################
@@ -30,5 +30,5 @@ output_folder=$2
 # Find all dex files in the input folder and run the python script on them
 find "$input_folder" -name "*.dex" -type f | while read -r file
 do
-    python3 detectors/R2-D2/preprocessing/dex2Image.py "$file" "$output_folder"
+    python3 detectors/R2-D2/preprocess/dex2Image.py "$file" "$output_folder"
 done

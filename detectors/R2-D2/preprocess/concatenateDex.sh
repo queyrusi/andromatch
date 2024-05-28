@@ -6,9 +6,9 @@
 #              in a directory as an APK sometimes yield several .dex files.
 #              It takes two arguments: the input directory containing the .dex files 
 #              and the output directory where the concatenated .dex file will be saved.
-# Usage: sudo ./detectors/R2-D2/preprocessing/concatenate_dex.sh <input_directory> \
+# Usage: sudo ./detectors/R2-D2/preprocess/concatenate_dex.sh <input_directory> \
 #        <output_directory>
-# Example: sudo ./detectors/R2-D2/preprocessing/concatenateDex.sh \
+# Example: sudo ./detectors/R2-D2/preprocess/concatenateDex.sh \
 #          "data/features/original/GM19/gw/R2-D2/dex/" \
 #          "data/features/original/GM19/gw/R2-D2/dex_concatenate/"
 ######################################################################################

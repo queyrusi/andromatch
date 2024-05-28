@@ -3,7 +3,7 @@
 ######################################################################################
 # Script Name: getDexFiles.sh
 # Description: Finds all APKs in a directory and extracts their .dex files.
-#       Usage: sh detectors/R2-D2/preprocessing/getDexFiles.sh \
+#       Usage: sh detectors/R2-D2/preprocess/getDexFiles.sh \
 #                 "/mnt/nas/squeyrut/andromak-datasets/GM19/gw" \
 #                 "data/features/R2-D2/original/GM19/gw"
 ######################################################################################
