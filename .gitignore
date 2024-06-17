@@ -15,3 +15,5 @@ experiments/wandb/*
 model/*
 data/datasets/original/D3/D3Hashes_before_correction.json
 data/datasets/original/D3/faulty_D3Hashes.json
+detectors/drebin-annamalai/
+detectors/second_author_FEM/feature-extractor
