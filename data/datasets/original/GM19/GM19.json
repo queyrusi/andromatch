@@ -1,10 +1,5 @@
 {
-    "FEM": "R2-D2",
-    "classifier": "CNN",
-    "classifierOrigin": "own",
     "datasetOrigin": "GM19",
-    "domainType": "own",
-    "dualFEM": "",
     "comment": "",
     "numberOfMwSamples": 5000,
     "numberOfGwSamples": 5000,

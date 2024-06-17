@@ -30,5 +30,5 @@ output_folder=$2
 # Find all dex files in the input folder and run the python script on them
 find "$input_folder" -name "*.dex" -type f | while read -r file
 do
-    python3 detectors/R2-D2/preprocess/dex2Image.py "$file" "$output_folder"
+    python3 dex2Image.py "$file" "$output_folder"
 done

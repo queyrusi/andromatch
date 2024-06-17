@@ -1,0 +1,9 @@
+{
+    "FEM": "R2-D2",
+    "Classifier": "native",
+    "DatasetOrigin": "GM19",
+    "DomainType": "own",
+    "SetupType": "Free",
+    "DualFEM": null,
+    "Comment": ""
+}

@@ -1,0 +1,1 @@
+One APK sometimes yields multiple DEX (`dex/`) so we concatenate them (`dex_concatenate/`) before converting them to image.

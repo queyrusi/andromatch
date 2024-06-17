@@ -12,27 +12,13 @@
 # Start timer
 start=$(date +%s)   
 
-if [ "$1" = "--from-subfolders" ]; then
+# Set the source directories
+source_dir="$1"
 
-    # Set the source directories
-    source_dir="$2"
+# Set the .dex destination directories
+dex_dir="$2"
 
-    # Set the .dex destination directories
-    dex_dir="$3"
-
-    apk_dir="$source_dir"/*/*.apk
-else
-
-    # Set the source directories
-    source_dir="$1"
-
-    # Set the .dex destination directories
-    dex_dir="$2"
-
-    apk_dir="$source_dir"/*.apk
-fi
-
-for apk in $apk_dir; do
+for apk in $(find "$source_dir" -name "*.apk"); do
 
     base=$(basename "$apk" .apk)
 
@@ -52,10 +38,13 @@ for apk in $apk_dir; do
     for dex in "$temp_dir"/classes*.dex; do
         dex_base=$(basename "$dex")
         mv "$dex" "$dex_dir/${base}_${dex_base}"
+        echo "Extracted $dex to $dex_dir/${base}_${dex_base}"
     done
 
     # Remove the temporary directory
     rm -rf "$temp_dir"
+
+done
 
 done
 

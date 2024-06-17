@@ -1,0 +1,11 @@
+{
+    "experiment_id": "",
+    "epochs": 10,
+    "batch_size": 4,
+    "lr": 0.01,
+    "data_folder": "",
+    "log_dir": "",
+    "split_percentage": 0.5,
+    "seed": 42,
+    "model_save_folder": "models"
+}   

@@ -8,4 +8,10 @@ hash_sampling.txt
 really_processed.txt
 data/datasets/original/GM19/mw/*
 data/datasets/original/GM19/gw/*
-garbage
+garbage/
+data/features/original/GM19/gw/R2-D2/images/*
+data/features/original/GM19/mw/R2-D2/images/*
+experiments/wandb/*
+model/*
+data/datasets/original/D3/D3Hashes_before_correction.json
+data/datasets/original/D3/faulty_D3Hashes.json
